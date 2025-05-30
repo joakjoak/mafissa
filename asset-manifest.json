@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mafissa/static/css/main.5fd3a996.css",
-    "main.js": "/mafissa/static/js/main.c248b513.js",
+    "main.js": "/mafissa/static/js/main.6d1e030b.js",
     "index.html": "/mafissa/index.html",
     "main.5fd3a996.css.map": "/mafissa/static/css/main.5fd3a996.css.map",
-    "main.c248b513.js.map": "/mafissa/static/js/main.c248b513.js.map"
+    "main.6d1e030b.js.map": "/mafissa/static/js/main.6d1e030b.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd3a996.css",
-    "static/js/main.c248b513.js"
+    "static/js/main.6d1e030b.js"
   ]
 }
