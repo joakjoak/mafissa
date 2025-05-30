@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/joakjoak/mafissa.git/static/css/main.5fd3a996.css",
+    "main.js": "/joakjoak/mafissa.git/static/js/main.400bbb59.js",
+    "index.html": "/joakjoak/mafissa.git/index.html",
+    "main.5fd3a996.css.map": "/joakjoak/mafissa.git/static/css/main.5fd3a996.css.map",
+    "main.400bbb59.js.map": "/joakjoak/mafissa.git/static/js/main.400bbb59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fd3a996.css",
+    "static/js/main.400bbb59.js"
+  ]
+}
