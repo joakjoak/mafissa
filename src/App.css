@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+/* Remove default styles and set base font */
+body {
+  margin: 0;
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Set Helvetica font for all text elements */
+h1,
+h2,
+h3,
+p,
+a,
+div {
+  font-family: "Helvetica", Arial, sans-serif;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Main app container */
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: var(--page-bg-image, none); /* Default to none */
+  transition: background-image 0.5s ease-in-out;
 }
 
+/* Main content area */
+.main-content {
+  margin: 15%;
+  padding: 20px;
+  width: calc(100% - 250px);
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white */
+  border-radius: 8px;
+  max-width: 1200px;
+}
+
+/* Typography styles */
+h1 {
+  font-size: 4rem; /* Significantly larger */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem; /* Same as original h1 size */
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.blank-space {
+  height: 15vh; /* 15% of viewport height */
+  width: 100%;
+}
+
+/* Remove unused styles from create-react-app template */
+.App-logo,
+.App-header,
 .App-link {
-  color: #61dafb;
+  display: none; /* Remove if you're not using these */
 }
 
+/* Animation (keep if you need it) */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px;
+    margin-top: 15%; /* Smaller margin on mobile */
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
